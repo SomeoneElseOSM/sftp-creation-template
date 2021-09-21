@@ -59,7 +59,7 @@
   "variables": {
     "sftpContainerName": "sftp",
     "sftpContainerGroupName": "sftp-group",
-    "sftpContainerImage": "someoneelseosm/sftp:0.1",
+    "sftpContainerImage": "someoneelseosm/sftp:0.2",
     "sftpEnvVariable": "[format('{0}:{1}:1001', parameters('sftpUser'), parameters('sftpPassword'))]"
   },
   "resources": [
